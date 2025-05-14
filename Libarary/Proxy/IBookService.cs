@@ -8,8 +8,16 @@ namespace Libarary.Proxy
 {
     internal interface IBookService
     {
-       
-        
-      
+
+
+        void DisplayBookInfo(int bookId);
+        bool BorrowBook(int bookId, User user);
+
     }
 }
+
+
+
+
+
+
