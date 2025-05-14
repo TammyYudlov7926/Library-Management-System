@@ -1,4 +1,6 @@
-﻿using Libarary.Bridge;
+﻿
+
+using Libarary.Bridge;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,17 @@ namespace Libarary.Adapter
 {
     internal interface IBookDisplay
     {
+        void Display(IBookColoring v, string n = null);
 
 
     }
 }
+
+
+
+
+
+
+
+
+
