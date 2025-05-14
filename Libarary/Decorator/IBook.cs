@@ -8,6 +8,13 @@ namespace Libarary.Decorator
 {
     internal interface IBook
     {
-       
+        void Display();
     }
 }
+
+
+
+
+
+
+
