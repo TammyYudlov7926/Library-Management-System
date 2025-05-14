@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace Libarary.Bridge
 {
-    internal class BackgroundColoring: IBookColoring
+    internal class BackgroundColoring : IBookColoring
     {
-       
+        public void ApplyColor(string text, ConsoleColor c)
+        {
+            Console.BackgroundColor = c;
+            Console.WriteLine(text);
+            Console.ResetColor();
+        }
     }
 }
+
+
+
