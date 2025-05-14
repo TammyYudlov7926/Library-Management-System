@@ -1,0 +1,22 @@
+## Ignore build results
+bin/
+obj/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Rider project files
+.idea/
+
+## Ignore VS Code settings
+.vscode/
+
+## Ignore other
+*.log
+*.db
+*.DS_Store
+*.Thumbs.db
+*.vs/
